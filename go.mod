@@ -1,4 +1,4 @@
-module github.com/shaj13/go-guardian/v2
+module github.com/Sosivio/go-guardian/v2
 
 go 1.13
 
