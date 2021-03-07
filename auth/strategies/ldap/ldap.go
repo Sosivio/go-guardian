@@ -9,8 +9,8 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/shaj13/go-guardian/v2/auth"
-	"github.com/shaj13/go-guardian/v2/auth/strategies/basic"
+	"github.com/Sosivio/go-guardian/v2/auth"
+	"github.com/Sosivio/go-guardian/v2/auth/strategies/basic"
 
 	"github.com/go-ldap/ldap/v3"
 )

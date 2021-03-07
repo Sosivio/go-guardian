@@ -1,9 +1,9 @@
-[![GoDoc](https://godoc.org/github.com/shaj13/go-guardian/v2?status.svg)](https://pkg.go.dev/github.com/shaj13/go-guardian/v2)
-[![Go Report Card](https://goreportcard.com/badge/github.com/shaj13/go-guardian)](https://goreportcard.com/report/github.com/shaj13/go-guardian)
-[![Coverage Status](https://coveralls.io/repos/github/shaj13/go-guardian/badge.svg?branch=master)](https://coveralls.io/github/shaj13/go-guardian?branch=master)
-[![CircleCI](https://circleci.com/gh/shaj13/go-guardian/tree/master.svg?style=svg)](https://circleci.com/gh/shaj13/go-guardian/tree/master)
+[![GoDoc](https://godoc.org/github.com/Sosivio/go-guardian/v2?status.svg)](https://pkg.go.dev/github.com/Sosivio/go-guardian/v2)
+[![Go Report Card](https://goreportcard.com/badge/github.com/Sosivio/go-guardian)](https://goreportcard.com/report/github.com/Sosivio/go-guardian)
+[![Coverage Status](https://coveralls.io/repos/github/Sosivio/go-guardian/badge.svg?branch=master)](https://coveralls.io/github/Sosivio/go-guardian?branch=master)
+[![CircleCI](https://circleci.com/gh/Sosivio/go-guardian/tree/master.svg?style=svg)](https://circleci.com/gh/Sosivio/go-guardian/tree/master)
 
-| :exclamation:  Cache package has been moved to [libcache](https://github.com/shaj13/libcache) repository |
+| :exclamation:  Cache package has been moved to [libcache](https://github.com/Sosivio/libcache) repository |
 |----------------------------------------------------------------------------------------------------------|
 
 # Go-Guardian
@@ -19,11 +19,11 @@ Strategies provide callbacks for controlling what occurs when authentication `sh
 Using go-guardian is easy. First, use go get to install the latest version of the library.
 
 ```sh
-go get github.com/shaj13/go-guardian/v2
+go get github.com/Sosivio/go-guardian/v2
 ```
 Next, include go-guardian in your application:
 ```go
-import "github.com/shaj13/go-guardian/v2"
+import "github.com/Sosivio/go-guardian/v2"
 ```
 
 ## Why Go-Guardian?
@@ -41,26 +41,26 @@ Here are a few bullet point reasons you might like to try it out:
 > functionality to get community feedback. Their APIs and functionality may be subject to
 > breaking changes in future releases.
 
-* [JWT](https://pkg.go.dev/github.com/shaj13/go-guardian/v2/auth/strategies/jwt?tab=doc)
-* [Oauth2-JWT](https://pkg.go.dev/github.com/shaj13/go-guardian/v2/auth/strategies/oauth2/jwt?tab=doc)
-* [Oauth2-Introspection](https://pkg.go.dev/github.com/shaj13/go-guardian/v2/auth/strategies/oauth2/introspection?tab=doc)
-* [Oauth2-OpenID-userinfo](https://pkg.go.dev/github.com/shaj13/go-guardian/v2/auth/strategies/oauth2/userinfo?tab=doc)
-* [OpenID-IDToken](https://pkg.go.dev/github.com/shaj13/go-guardian/v2/auth/strategies/oauth2/jwt?tab=doc)
-* [kubernetes (Token Review)](https://pkg.go.dev/github.com/shaj13/go-guardian/v2/auth/strategies/kubernetes?tab=doc)
-* [2FA](https://pkg.go.dev/github.com/shaj13/go-guardian/v2/auth/strategies/twofactor?tab=doc)
-* [Certificate-Based](https://pkg.go.dev/github.com/shaj13/go-guardian/v2/auth/strategies/x509?tab=doc)
-* [Bearer-Token](https://pkg.go.dev/github.com/shaj13/go-guardian/v2/auth/strategies/token?tab=doc)
-* [Static-Token](https://pkg.go.dev/github.com/shaj13/go-guardian/v2/auth/strategies/token?tab=doc)
-* [LDAP](https://pkg.go.dev/github.com/shaj13/go-guardian/v2/auth/strategies/ldap?tab=doc)
-* [Basic](https://pkg.go.dev/github.com/shaj13/go-guardian/v2/auth/strategies/basic?tab=doc)
-* [Digest](https://pkg.go.dev/github.com/shaj13/go-guardian/v2/auth/strategies/digest?tab=doc)
-* [Union](https://pkg.go.dev/github.com/shaj13/go-guardian/v2/auth/strategies/union?tab=doc)
+* [JWT](https://pkg.go.dev/github.com/Sosivio/go-guardian/v2/auth/strategies/jwt?tab=doc)
+* [Oauth2-JWT](https://pkg.go.dev/github.com/Sosivio/go-guardian/v2/auth/strategies/oauth2/jwt?tab=doc)
+* [Oauth2-Introspection](https://pkg.go.dev/github.com/Sosivio/go-guardian/v2/auth/strategies/oauth2/introspection?tab=doc)
+* [Oauth2-OpenID-userinfo](https://pkg.go.dev/github.com/Sosivio/go-guardian/v2/auth/strategies/oauth2/userinfo?tab=doc)
+* [OpenID-IDToken](https://pkg.go.dev/github.com/Sosivio/go-guardian/v2/auth/strategies/oauth2/jwt?tab=doc)
+* [kubernetes (Token Review)](https://pkg.go.dev/github.com/Sosivio/go-guardian/v2/auth/strategies/kubernetes?tab=doc)
+* [2FA](https://pkg.go.dev/github.com/Sosivio/go-guardian/v2/auth/strategies/twofactor?tab=doc)
+* [Certificate-Based](https://pkg.go.dev/github.com/Sosivio/go-guardian/v2/auth/strategies/x509?tab=doc)
+* [Bearer-Token](https://pkg.go.dev/github.com/Sosivio/go-guardian/v2/auth/strategies/token?tab=doc)
+* [Static-Token](https://pkg.go.dev/github.com/Sosivio/go-guardian/v2/auth/strategies/token?tab=doc)
+* [LDAP](https://pkg.go.dev/github.com/Sosivio/go-guardian/v2/auth/strategies/ldap?tab=doc)
+* [Basic](https://pkg.go.dev/github.com/Sosivio/go-guardian/v2/auth/strategies/basic?tab=doc)
+* [Digest](https://pkg.go.dev/github.com/Sosivio/go-guardian/v2/auth/strategies/digest?tab=doc)
+* [Union](https://pkg.go.dev/github.com/Sosivio/go-guardian/v2/auth/strategies/union?tab=doc)
 
 # Examples 
-Examples are available on [GoDoc](https://pkg.go.dev/github.com/shaj13/go-guardian/v2) or [Examples Folder](./_examples).
+Examples are available on [GoDoc](https://pkg.go.dev/github.com/Sosivio/go-guardian/v2) or [Examples Folder](./_examples).
 
 # Documentation
-API docs are available on [GoDoc](https://pkg.go.dev/github.com/shaj13/go-guardian/v2).
+API docs are available on [GoDoc](https://pkg.go.dev/github.com/Sosivio/go-guardian/v2).
 
 # Contributing
 
@@ -73,4 +73,4 @@ API docs are available on [GoDoc](https://pkg.go.dev/github.com/shaj13/go-guardi
 7. Create new pull request
 
 # License
-Go-Guardian is released under the MIT license. See [LICENSE](https://github.com/shaj13/go-guardian/blob/master/LICENSE)
+Go-Guardian is released under the MIT license. See [LICENSE](https://github.com/Sosivio/go-guardian/blob/master/LICENSE)

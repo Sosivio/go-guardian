@@ -3,8 +3,8 @@ package oauth2
 import (
 	"time"
 
-	"github.com/shaj13/go-guardian/v2/auth"
-	"github.com/shaj13/go-guardian/v2/auth/claims"
+	"github.com/Sosivio/go-guardian/v2/auth"
+	"github.com/Sosivio/go-guardian/v2/auth/claims"
 )
 
 var _ ErrorResolver = ResponseError{}

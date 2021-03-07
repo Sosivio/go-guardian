@@ -7,12 +7,12 @@ import (
 	"net/http"
 	"time"
 
+	"github.com/Sosivio/libcache"
+	_ "github.com/Sosivio/libcache/fifo"
 	"github.com/gorilla/mux"
-	"github.com/shaj13/libcache"
-	_ "github.com/shaj13/libcache/fifo"
 
-	"github.com/shaj13/go-guardian/v2/auth"
-	"github.com/shaj13/go-guardian/v2/auth/strategies/digest"
+	"github.com/Sosivio/go-guardian/v2/auth"
+	"github.com/Sosivio/go-guardian/v2/auth/strategies/digest"
 )
 
 // Usage:

@@ -14,13 +14,13 @@ import (
 	"github.com/google/uuid"
 	"github.com/gorilla/mux"
 
-	"github.com/shaj13/libcache"
-	_ "github.com/shaj13/libcache/fifo"
+	"github.com/Sosivio/libcache"
+	_ "github.com/Sosivio/libcache/fifo"
 
-	"github.com/shaj13/go-guardian/v2/auth"
-	"github.com/shaj13/go-guardian/v2/auth/strategies/basic"
-	"github.com/shaj13/go-guardian/v2/auth/strategies/token"
-	"github.com/shaj13/go-guardian/v2/auth/strategies/union"
+	"github.com/Sosivio/go-guardian/v2/auth"
+	"github.com/Sosivio/go-guardian/v2/auth/strategies/basic"
+	"github.com/Sosivio/go-guardian/v2/auth/strategies/token"
+	"github.com/Sosivio/go-guardian/v2/auth/strategies/union"
 )
 
 // Usage:

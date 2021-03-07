@@ -12,12 +12,12 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/shaj13/go-guardian/v2/auth"
-	"github.com/shaj13/go-guardian/v2/auth/claims"
-	"github.com/shaj13/go-guardian/v2/auth/internal"
-	"github.com/shaj13/go-guardian/v2/auth/internal/header"
-	"github.com/shaj13/go-guardian/v2/auth/strategies/oauth2"
-	"github.com/shaj13/go-guardian/v2/auth/strategies/token"
+	"github.com/Sosivio/go-guardian/v2/auth"
+	"github.com/Sosivio/go-guardian/v2/auth/claims"
+	"github.com/Sosivio/go-guardian/v2/auth/internal"
+	"github.com/Sosivio/go-guardian/v2/auth/internal/header"
+	"github.com/Sosivio/go-guardian/v2/auth/strategies/oauth2"
+	"github.com/Sosivio/go-guardian/v2/auth/strategies/token"
 )
 
 const wwwauth = "WWW-Authenticate"

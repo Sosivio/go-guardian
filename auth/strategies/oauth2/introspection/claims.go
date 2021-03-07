@@ -4,9 +4,9 @@ import (
 	"encoding/json"
 	"time"
 
-	"github.com/shaj13/go-guardian/v2/auth"
-	"github.com/shaj13/go-guardian/v2/auth/claims"
-	"github.com/shaj13/go-guardian/v2/auth/strategies/oauth2"
+	"github.com/Sosivio/go-guardian/v2/auth"
+	"github.com/Sosivio/go-guardian/v2/auth/claims"
+	"github.com/Sosivio/go-guardian/v2/auth/strategies/oauth2"
 )
 
 // Claims represents introspection response as defined in RFC 7662.

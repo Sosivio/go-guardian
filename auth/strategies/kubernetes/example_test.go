@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/shaj13/libcache"
-	_ "github.com/shaj13/libcache/idle"
+	"github.com/Sosivio/libcache"
+	_ "github.com/Sosivio/libcache/idle"
 
-	"github.com/shaj13/go-guardian/v2/auth/strategies/token"
+	"github.com/Sosivio/go-guardian/v2/auth/strategies/token"
 )
 
 func ExampleNew() {

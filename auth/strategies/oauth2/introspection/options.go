@@ -4,10 +4,10 @@ import (
 	"crypto/tls"
 	"net/http"
 
-	"github.com/shaj13/go-guardian/v2/auth"
-	"github.com/shaj13/go-guardian/v2/auth/claims"
-	"github.com/shaj13/go-guardian/v2/auth/internal"
-	"github.com/shaj13/go-guardian/v2/auth/strategies/oauth2"
+	"github.com/Sosivio/go-guardian/v2/auth"
+	"github.com/Sosivio/go-guardian/v2/auth/claims"
+	"github.com/Sosivio/go-guardian/v2/auth/internal"
+	"github.com/Sosivio/go-guardian/v2/auth/strategies/oauth2"
 )
 
 // SetBasicAuth sets the introspection request's Authorization header to use

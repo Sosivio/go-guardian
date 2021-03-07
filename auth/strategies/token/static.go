@@ -10,7 +10,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/shaj13/go-guardian/v2/auth"
+	"github.com/Sosivio/go-guardian/v2/auth"
 )
 
 // NewStaticFromFile returns static auth.Strategy, populated from a CSV file.

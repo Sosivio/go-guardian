@@ -6,11 +6,11 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/shaj13/libcache"
-	_ "github.com/shaj13/libcache/lru"
+	"github.com/Sosivio/libcache"
+	_ "github.com/Sosivio/libcache/lru"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/shaj13/go-guardian/v2/auth"
+	"github.com/Sosivio/go-guardian/v2/auth"
 )
 
 func TestStartegy(t *testing.T) {

@@ -1,9 +1,9 @@
 package userinfo
 
 import (
-	"github.com/shaj13/go-guardian/v2/auth"
-	"github.com/shaj13/go-guardian/v2/auth/claims"
-	"github.com/shaj13/go-guardian/v2/auth/strategies/oauth2"
+	"github.com/Sosivio/go-guardian/v2/auth"
+	"github.com/Sosivio/go-guardian/v2/auth/claims"
+	"github.com/Sosivio/go-guardian/v2/auth/strategies/oauth2"
 )
 
 // AddressClaim represents a physical mailing address as defined in OpenID

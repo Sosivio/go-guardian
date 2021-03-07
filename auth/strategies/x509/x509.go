@@ -9,7 +9,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/shaj13/go-guardian/v2/auth"
+	"github.com/Sosivio/go-guardian/v2/auth"
 )
 
 var (
